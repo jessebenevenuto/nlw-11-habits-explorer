@@ -16,7 +16,6 @@ body {
     background-color: #1E1E1E;
 
     color: #FFFFFF;
-    
 }
 
 /* =============== header =============== */
@@ -27,6 +26,12 @@ header {
     justify-content: space-between;
 
     padding: 48px;
+
+    position: fixed;
+
+    width: 100%;
+
+    background-color: #1E1E1E;
 }
 
 button {
@@ -66,7 +71,9 @@ button:hover {
 #form-habits {
     display: flex;
 
-    padding: 0 48px;
+    padding: 182px 48px 48px;
+    
+    width:fit-content;
 }
 
 #form-habits .habits {
@@ -86,7 +93,6 @@ button:hover {
     height: 64px;
 
     font-size: 32px;
-
 }
 
 #form-habits .days {
@@ -143,4 +149,10 @@ input:hover {
 input:checked {
     border: 2px solid #A78BFA;
     background-color: #8B5CF6;
+}
+
+@media (max-width: 520px) {
+    header span {
+        display: none;
+    }
 }

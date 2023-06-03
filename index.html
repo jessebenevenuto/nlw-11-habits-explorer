@@ -17,47 +17,25 @@
     
         <button>
             <img src="./assets/plus.svg" alt="Ícone do botão">
-            Registrar o meu dia
+
+            <span>Registrar o meu dia</span>
         </button>
     </header>
 
     <form id="form-habits">
-        <!-- <div class="habits">
-            <div class="habit">🏃️</div>
-            <div class="habit">💧️</div>
-            <div class="habit">🍎️</div>
-        </div> -->
-
         <ul class="habits">
-            <li class="habit">🏃️</li>
-            <li class="habit">💧️</li>
-            <li class="habit">🍎️</li>
+            <li class="habit" data-name="run">🏃‍♂️️</li>
+            <li class="habit" data-name="water">🚰️</li>
+            <li class="habit" data-name="gym">🏋‍♂️️️</li>
+            <li class="habit" data-name="sleep">🛌️</li>
+            <li class="habit" data-name="book">📚️</li>
+            <li class="habit" data-name="food">🥗️</li>
         </ul>
 
-        <!-- <div class="days">
-            <div class="day">
-                <div>01/06</div>
-                <input type="checkbox" name="run">
-                <input type="checkbox" name="water">
-                <input type="checkbox" name="food">
-            </div>
-        </div> -->
-
-        <ul class="days">
-            <li class="day">
-                <div>01/06</div>
-                <input type="checkbox" name="run">
-                <input type="checkbox" name="water">
-                <input type="checkbox" name="food">
-            </li>
-
-            <li class="day">
-                <div>02/06</div>
-                <input type="checkbox" name="run">
-                <input type="checkbox" name="water">
-                <input type="checkbox" name="food">
-            </li>
-        </ul>
+        <ul class="days"></ul>
     </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
